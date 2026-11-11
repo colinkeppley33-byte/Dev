@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    Testing new articles
+{% endblock %}
+
+{% block content %}
+ <h2>Testing new articles</h2>
+    {% for article in articles %}
+        <div>
+            <h3>{{ article.title }}</h3>
+            <p>{{ article.content }}</p>
+        </div>
+    {% endfor %}
+
+{% endblock %}
