@@ -7,4 +7,8 @@ def homepage(request):
 
 def about(request):
     # return HttpResponse("This is the about page.")
-    return render(request, 'about.html')
+    return render(request, 'index.html')
+
+def sources(request):
+    # return HttpResponse("This is the sources page.")
+    return render(request, 'sources.html')
