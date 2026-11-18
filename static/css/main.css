@@ -1655,7 +1655,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f98780;
+			background-color: #061c35;
 		}
 
 		input[type="button"].large,
@@ -1672,7 +1672,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #061c35 url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1681,7 +1681,7 @@ input, select, textarea {
 			input[type="reset"].style1:hover,
 			button.style1:hover,
 			.button.style1:hover {
-				background-color: #f98780;
+				background-color: #061c35;
 			}
 
 			input[type="button"].style1:active,
@@ -1689,7 +1689,7 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				background-color: #061c35;
 			}
 
 		input[type="button"].style2,
@@ -1850,7 +1850,7 @@ input, select, textarea {
 		}
 
 		.feature-list h3 {
-			color: #e97770 !important;
+			color: #061c35 !important;
 			margin: -0.35em 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
@@ -2002,13 +2002,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #e97770 url("images/overlay.png");
+			background: #061c35 url("images/overlay.png");
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
 			.wrapper.style1 .title {
-				background: #e97770 url("images/overlay.png");
+				background: #061c35 url("images/overlay.png");
 				color: #fff;
 			}
 
@@ -2061,7 +2061,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
+		background: url("static/images/banner.jpg") center center;
 		background-size: cover;
 		padding: 0;
 	}
@@ -2073,7 +2073,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
+			background: url("static/images/overlay.png");
 		}
 
 		.homepage #header {
@@ -2092,14 +2092,14 @@ input, select, textarea {
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
-			color: #fff;
+			color: #1f1d1d;
 			font-size: 2em;
 			letter-spacing: 0.25em;
 		}
 
 		#logo p {
-			color: #eee;
-			color: rgba(255, 255, 255, 0.5);
+			color: #1f1d1d;
+			color: rgba(56, 56, 56, 0.5);
 			text-transform: uppercase;
 			margin: 1.25em 0 0 0;
 			display: block;
@@ -2137,7 +2137,7 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: #eee;
+					color: #1f1d1d;
 					color: rgba(255, 255, 255, 0.75);
 					text-transform: uppercase;
 					text-decoration: none;
@@ -2154,11 +2154,11 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a {
-					color: #fff;
+					color: #323235;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
-					color: #fff;
+					color: #323235;
 				}
 
 	.dropotron {
@@ -2187,7 +2187,7 @@ input, select, textarea {
 			-ms-transition: all .25s ease-in-out;
 			transition: all .25s ease-in-out;
 			display: block;
-			color: #eee;
+			color: #323235;
 			color: rgba(255, 255, 255, 0.75);
 			text-transform: uppercase;
 			text-decoration: none;
@@ -2261,7 +2261,7 @@ input, select, textarea {
 	}
 
 		#highlights .highlight h3 {
-			color: #e97770;
+			color: #061c35;
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
